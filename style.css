@@ -35,3 +35,15 @@
 .item:hover{
     color: red;
 }
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    color: white;
+    align-items: center;
+    /* border: 2px solid green; */
+    background-image: url('images/background.jpg'), linear-gradient(45deg, rgba(60, 58, 58, 0.7), rgb(71, 69, 69));
+}
