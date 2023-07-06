@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.menu-container{
+    background-color: rgba(120, 20, 213, 0.544);
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 45px;
+}
+
+.logo-photo{
+    width: 190px;
+    margin-right: 300px;
+   
+}
+
+.menus{
+    display: flex;
+}
+
+.item{
+   margin-right: 40px;
+   padding-right: 7px;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+.item:hover{
+    color: red;
+}
